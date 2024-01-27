@@ -69,16 +69,17 @@ header {
   text-align: center;
 }
 
-.social-links div {
+.social-links a {
   background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
   padding: 15px;
   font-weight: 700;
   border-radius: 10px;
   cursor: pointer;
+  text-decoration: none;
 }
 
-.social-links div:active {
+.social-links a:active {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 20%);
 }
